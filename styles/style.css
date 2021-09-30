@@ -147,6 +147,7 @@
   background-color: #1f1f1f;
   position: relative;
   overflow: hidden;
+  z-index: 1;
 }
 
 .section-title {
@@ -168,7 +169,7 @@
   font-weight: normal;
   max-width: 60%;
   text-align: center;
-  margin: 0 auto 60px;
+  margin: 0 auto;
 }
 
 .section-subtitle_theme_dark {
@@ -192,10 +193,7 @@
   max-width: 250px;
   width: 100%;
   list-style: none;
-}
-
-.table__cell:nth-of-type(-n+4) {
-  margin-bottom: 60px;
+  margin-top: 60px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -204,10 +202,7 @@
   width: 100%;
   color: white;
   margin-right: 0;
-}
-
-.table__cell_theme_dark:nth-of-type(-n+5) {
-  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .table__heading {
@@ -229,6 +224,11 @@
   margin: 0;
   max-width: 250px;
   width: 100%;
+  margin-bottom: 20px;
+}
+
+.table__text:last-of-type {
+  margin-bottom: 0;
 }
 
 .table__text_theme_dark {
@@ -242,7 +242,7 @@
   position: absolute;
   top: 0;
   right: -210px;
-  z-index: -2;
+  z-index: -1;
 }
 
 /* Секция Метод Феймана */
@@ -254,7 +254,6 @@
   background-repeat: no-repeat;
   min-height: 890px;
   position: relative;
-  padding-top: 100px;
 }
 
 .feynman__title {
@@ -264,7 +263,8 @@
   max-width: 648px;
   width: 100%;
   text-align: center;
-  margin: 100px auto 70px;
+  margin: 0 auto 70px;
+  padding-top: 100px;
 }
 
 .feynman__subtitle {
@@ -274,6 +274,7 @@
   margin: 0 auto;
   max-width: 370px;
   width: 100%;
+  text-align: center;
 }
 
 .feynman__link {
@@ -328,8 +329,6 @@
   font-size: 18px;
   font-weight: normal;
   margin: 18px 0;
-  max-width: 230px;
-  width: 100%;
 }
 .footer__column_content_info {
   padding-bottom: 16px;
@@ -339,8 +338,6 @@
   font-size: 18px;
   font-weight: bold;
   margin: 0 0 20px 0;
-  max-width: 124px;
-  width: 100%;
 }
 .footer__column-links {
   display: flex;
