@@ -1,0 +1,9 @@
+.video__iframe {
+    display: block;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.video__iframe:last-of-type {
+    margin-right: 0;
+}

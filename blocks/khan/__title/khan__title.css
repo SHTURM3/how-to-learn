@@ -1,0 +1,9 @@
+.khan__title {
+    max-width: 565px;
+    width: 100%;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0 0 50px 0;
+    padding: 0;
+}

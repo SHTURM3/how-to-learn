@@ -1,0 +1,9 @@
+.khan__quote-author {
+    max-width: 185px;
+    width: 100%;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
