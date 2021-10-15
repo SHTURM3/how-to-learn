@@ -8,5 +8,5 @@
 }
 
 .rotation {
-    animation: rotation_360 20s infinite;
+    animation: rotation_360 20s infinite linear;
 }
